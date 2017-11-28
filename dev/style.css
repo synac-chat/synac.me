@@ -1,0 +1,48 @@
+ body {
+    background: #161616;
+    color: #d1d1d1;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin: 8px; /* Firefox default */
+}
+
+#name-large {
+    font-size: 72px;
+    margin-bottom: 10px;
+    transition: .5s transform, 1.2s color;
+    color: purple;
+}
+#name-large:hover {
+    color: white;
+    transform: scale(1.2);
+}
+#name-wrapper {
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(50% - 8px*2);
+}
+
+#front-page-photo {
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    transform: translateX(calc(75% - 8px*2));
+}
+
+.thin {
+    font-weight: 100;
+}
+
+/* Header */
+header {
+    background: rgba(128, 0, 128, 0.1);
+    box-shadow: 0 0 0px black;
+    height: 8%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}

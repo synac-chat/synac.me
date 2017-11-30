@@ -2,7 +2,7 @@
     background: #161616;
     color: #d1d1d1;
     font-family: Roboto,Helvetica,Arial,sans-serif;
-    margin: 8px; /* Firefox default */
+    margin: 0;
 }
 
 #name-large {
@@ -21,14 +21,18 @@
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
-    width: calc(50% - 8px*2);
+    width: 50%;
 }
 
 #front-page-photo {
     overflow: hidden;
     position: absolute;
     top: 30%;
-    transform: translateX(calc(75% - 8px*2));
+    right: 10%;
+    width: 40%;
+}
+#front-page-photo img {
+    width: 100%;
 }
 
 .thin {

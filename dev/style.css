@@ -14,6 +14,13 @@
     transition: .5s transform, 1.2s color;
     color: purple;
 }
+.name-small {
+    font-size: 62px;
+    transition: .5s transform;
+    color: purple;
+    margin-left: 1%;
+    text-align: center;
+}
 #name-large:hover {
     color: white;
     transform: scale(1.2);
@@ -48,7 +55,6 @@
 }
 
 /* Header */
-
 header {
     background: rgba(0, 0, 0, 0);
     box-shadow: 0 0 0px black;
@@ -113,6 +119,21 @@ a {
     }
 }
 
+@keyframes slideToTop {
+    0% {
+        transform: translateY(400%);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(400%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @keyframes fade {
     0% { opacity: 0; }
     80% { opacity: 0; }
@@ -129,4 +150,8 @@ a {
 
 .fadeinlast {
     animation: 4s ease-out 0s 1 fade;
+}
+
+.fadein {
+    animation: 1s ease-out 0s 1 fade;
 }

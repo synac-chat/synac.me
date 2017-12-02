@@ -54,3 +54,39 @@ header {
     width: 100%;
     z-index: 100;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-75%);
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.aleft {
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.abottom {
+    animation: 4s ease-out 0s 1 slideInFromBottom;
+}

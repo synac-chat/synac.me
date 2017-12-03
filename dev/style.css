@@ -75,7 +75,7 @@
     background-color: lightgray;
     color: purple;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0);
-    transition: .5s transform, 1.2s color, 1s box-shadow;
+    transition: .4s transform, 1.2s color, 1s box-shadow;
 }
 
 .block:hover {
@@ -89,6 +89,7 @@
 }
 .container  {
     text-align: center;
+    border-radius: 20%;
 }
 
 h5 {

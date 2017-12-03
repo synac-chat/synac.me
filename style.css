@@ -144,7 +144,7 @@ h5 {
 header {
     background: rgba(0, 0, 0, 0);
     box-shadow: 0 0 0px black;
-    height: calc(8% + (2px + 5px) * 2);
+    height: 60px;
     left: 0;
     position: fixed;
     top: 0;
@@ -161,7 +161,6 @@ nav {
 nav a {
     border-bottom: 3px solid rgba(255, 255, 255, 0.1);
     color: inherit;
-    display: inline-block;
     padding: 20px;
     transition: background .2s ease-in-out, box-shadow .4s, color .6s, border-bottom 2s;
     vertical-align: bottom;

@@ -74,6 +74,7 @@
     height: 400px;
     background-color: lightgray;
     color: purple;
+    border-radius: 5px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0);
     transition: .4s transform, 1.2s color, 1s box-shadow;
 }
@@ -89,7 +90,6 @@
 }
 .container  {
     text-align: center;
-    border-radius: 20%;
 }
 
 h5 {

@@ -53,6 +53,8 @@ body {
 .quote {
     color: #6d6d6d;
     text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .desc {

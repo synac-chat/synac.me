@@ -5,6 +5,8 @@
     color: #d1d1d1;
     font-family: Roboto,Helvetica,Arial,sans-serif;
     margin: 0;
+    height: 500%; /* Testing scrolling */
+    font-weight: 100;
 }
 
 /* Front page */
@@ -14,11 +16,10 @@
     transition: .5s transform, 1.2s color;
     color: purple;
 }
-.name-small {
+.name {
     font-size: 62px;
-    transition: .5s transform;
     color: purple;
-    margin-left: 1%;
+    margin-top: 2%;
     text-align: center;
 }
 #name-large:hover {
@@ -45,6 +46,72 @@
     width: 100%;
 }
 
+.quote {
+    color: #6d6d6d;
+    text-align: center;
+}
+
+.desc {
+    font-size: 36px;
+    text-align: center;
+}
+
+.sdesc {
+    font-size: 26px;
+    text-align: center;
+}
+
+.clear {
+    color: #af00af;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Download page */
+.section {
+    background: #333333;
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    width: 340px;
+    box-shadow: rgba(0,0,0,0.3) 0px 1px 4px, inset rgba(255,255,255,0.13) 0px 1px 0px;
+    margin-right: 8px;
+}
+
+.block {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    color: purple;
+}
+
+.block h4 {
+    font-size: 24px;
+}
+.container  {
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.sn a {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    color: inherit;
+    display: inline-block;
+    padding: 20px;
+    transition: background .2s ease-in-out, box-shadow .4s, color .6s, border-bottom 2s;
+    vertical-align: bottom;
+    font-size: 20;
+}
+.sn a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 3px solid rgba(128, 0, 128, 1);
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
 /* Effects */
 .thin {
     font-weight: 100;
@@ -52,6 +119,10 @@
 
 .shadow {
     box-shadow: 0 4px 12px 0 rgba(128, 0, 128, 0.3);
+}
+
+.close {
+    line-height: 0.5em;
 }
 
 /* Header */

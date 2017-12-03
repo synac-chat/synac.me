@@ -70,6 +70,7 @@
 /* Download page */
 .block {
     display: inline-block;
+    vertical-align: top;
     width: 300px;
     height: 400px;
     background-color: lightgray;
@@ -96,6 +97,10 @@ h5 {
     font-size: 18px;
 }
 
+.sn {
+    padding: 50px;
+}
+
 .sn a {
     border-bottom: 3px solid rgba(255, 255, 255, 0.1);
     color: inherit;
@@ -109,6 +114,10 @@ h5 {
     background: rgba(255, 255, 255, 0.1);
     border-bottom: 3px solid rgba(128, 0, 128, 1);
     box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.fh {
+    height: 35%;
 }
 
 /* Effects */

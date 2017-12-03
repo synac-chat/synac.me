@@ -78,6 +78,7 @@ body {
 .block {
     display: inline-block;
     vertical-align: top;
+    margin-bottom: 5px;
     width: 300px;
     height: 400px;
     background-color: lightgray;
